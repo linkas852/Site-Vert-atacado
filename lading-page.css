@@ -1,0 +1,131 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    background-color: #fff;
+    display: flex;
+    max-width: 1080px;
+    width: 100%;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ed7d2c;
+}
+
+header{
+    padding: 16px 0;
+    background-color: #ed7d2c;
+    font-family: 'Roboto', sans-serif;
+}
+
+header nav li{
+    display: inline;
+    margin-left: 16px;
+    font-size: 18px;
+    border: solid 2px;
+    padding: 10px;
+    border-radius: 10px;
+}
+header nav li:hover, header nav li a:hover{
+    background-color: #ce7a45;
+    color: #fff;
+}
+header nav li a{
+    text-decoration: none;
+    color: black;
+    
+}
+h1, h2{
+    color: rgba(215,215,215,255);
+    font-weight: bolder;
+    font-size: 36px;
+}
+h2{
+    color:black
+}
+iframe{
+    margin-top: 10px;
+    margin-left: 50px;
+}
+body{
+    background-color:rgba(215,215,215,255) ;
+    font-family: 'Roboto', sans-serif;
+
+}
+.endereço{
+    display: flex;
+    width: 285px;
+    justify-content: flex-end;
+    height: 100px;
+    align-items: flex-end;
+}
+.endereço h2{
+    color: #ce7a45;
+}
+.promo{
+    display: flex;
+    width: 1093px;
+}
+.about{
+    display: flex;
+    color:#ed7d2c;
+}
+.sobre-a-vert{
+    width: 704px;
+    justify-content: center;
+    padding-left: 54px;
+    padding-top: 15px;
+}
+.h2-text{
+    padding-bottom:50px ;
+    color:#ed7d2c;
+    font-weight: bolder;
+}
+p{
+    font-size: 18px;
+    font-weight: bolder;
+}
+#contact .container{
+    display: block;
+}
+.contact-methods{
+    display: flex;
+    justify-content: space-between;
+}
+form input,
+form textarea,
+form button{
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+form textarea{
+    resize: none;
+    height: 180px;
+}
+form button{
+    background-color:#ed7d2c;
+    color: #ffff;
+    border:none;
+    cursor: pointer;
+}
+form button:hover{
+    background-color:#d3691e;
+}
+input:focus, textarea:focus{
+    outline-color: #ed7d2c;
+}
+.support{
+    margin-top: 15px;
+    margin-left: 50px;
+}
+section h2{
+    padding-top: 10px;
+    font-weight: bold;
+    padding-bottom: 25px;
+    color: #ce7a45;
+}
